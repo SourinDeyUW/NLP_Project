@@ -26,11 +26,11 @@ Now, remove all dataset names except BC4CHEMD in the preprocess.sh .
 
 Then run the following in batch file such as submit.sh .
 
-export DATA_DIR=../datasets/NER
+    export DATA_DIR=../datasets/NER
 
-export ENTITY=BC4CHEMD
+    export ENTITY=BC4CHEMD
 
-python run_ner.py \
+    python run_ner.py \
 
     --data_dir ${DATA_DIR}/${ENTITY} \
     
